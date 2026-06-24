@@ -1,0 +1,51 @@
+# Robots.txt for PT. Kualiti Solusi Edukasi Website
+# Generated: June 19, 2025
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive directories (if any in future)
+Disallow: /private/
+Disallow: /admin/
+Disallow: /temp/
+
+# Crawl-delay to prevent server overload (optional)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://www.kualitisolusiedukasi.com/sitemap.xml
+
+# Specific rules for major search engines
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Block common bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Additional SEO directives
+# Allow search engines to crawl CSS and JS files
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
